@@ -40,6 +40,7 @@ const Dashboard = () => {
         label: airport.city,
         value: airport.code,
         country: airport.country,
+        name:airport.name
       };
     });
     setAirports(air);
@@ -69,7 +70,7 @@ const Dashboard = () => {
             );
           })}
         </div>
-        <div className="flex border items-center justify-around border-gray-400 mx-24 rounded-xl  h-[10rem] w-full">
+        <div className="flex border items-center justify-around border-gray-400 mx-12 rounded-xl  h-[10rem] w-full">
           <div className="w-[18rem] ">
             <Select
               placeholder="From"
@@ -81,7 +82,7 @@ const Dashboard = () => {
                 return (
                   <div>
                     <div className="font-semibold">{option.label}</div>
-                    <div>{option.country}</div>
+                    <div>{`${option.name},${option.country}`}</div>
                   </div>
                 );
               }}

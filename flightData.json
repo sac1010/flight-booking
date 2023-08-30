@@ -1,0 +1,6 @@
+[{"name": "Air Asia", "duration":"02 h 40 min", "arrival": "14:40", "departure": "11:30", "price": 5235, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/SG.png?v=15"},
+{"name": "IndiGo", "duration":"07 h 30 min", "arrival": "17:20", "departure": "1:30", "price": 5435, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/6E.png?v=15"},
+{"name": "IndiGo", "duration":"02 h 50 min", "arrival": "14:40", "departure": "11:30", "price": 3335, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/6E.png?v=15"},
+{"name": "Air India", "duration":"06 h 30 min", "arrival": "13:40", "departure": "11:30", "price":6235, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/AI.png?v=15"},
+{"name": "Air India", "duration":"04 h 40 min", "arrival": "05:40", "departure": "11:30", "price": 530, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/AI.png?v=15"},
+{"name": "Spice Jet", "duration":"02 h 50 min", "arrival": "01:30", "departure": "11:30", "price": 9735, "img":"https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/SG.png?v=15"}]

@@ -48,14 +48,15 @@ const Dashboard = () => {
 
   useEffect(() => {
     console.log(from, "from");
+    console.log(date, "fraap")
   }, [from]);
 
   const handleClick  = ()=>{
     if(!date || !to || !from){
-      alert("please select")
+      alert("please fill the required fields")
       return
     }
-    router.push(`/flights?date=${date}&from=${JSON.stringify(from)}&to=${JSON.stringify(to)}`)
+    router.push(`/flights?date=${JSON.stringify(date)}&from=${JSON.stringify(from)}&to=${JSON.stringify(to)}`)
   }
   return (
     <div className="xl:px-60 lg:px-40 px-10 h-screen w-full bg-gradient-to-b from-black to-blue-900 flex items-center justify-center">

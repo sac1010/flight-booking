@@ -46,10 +46,6 @@ const Dashboard = () => {
     setAirports(air);
   }, []);
 
-  useEffect(() => {
-    console.log(from, "from");
-    console.log(date, "fraap")
-  }, [from]);
 
   const handleClick  = ()=>{
     if(!date || !to || !from){

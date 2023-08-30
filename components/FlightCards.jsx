@@ -12,7 +12,7 @@ const FlightCards = ({ from, to, date, flight }) => {
       className="w-full flex gap-8 items-center hover:bg-gray-100 py-5 cursor-pointer"
     >
       <div className="flex gap-2 w-1/5 justify-center items-center text-sm font-semibold">
-        <Image width={40} height={40} src={flight.img} />
+        <Image alt="flight" width={40} height={40} src={flight.img} />
         <div>{flight.name}</div>
       </div>
       <div className="flex flex-col gap-2 justify-center items-center text-sm w-1/5">

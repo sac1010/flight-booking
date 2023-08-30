@@ -22,7 +22,7 @@ const ConfirmCard = ({ data }) => {
         <div>{formatDateToDDMMYYYY(data.date)}</div>
       </div>
       <div className="flex gap-4 my-2 items-center ">
-        <Image src={data.flight.img} width={40} height={40} />
+        <Image alt="image" src={data.flight.img} width={40} height={40} />
         <div className="font-bold ">{data.flight.name}</div>
       </div>
       <div className="w-full h-[10rem] flex items-center justify-between bg-blue-50 p-4">

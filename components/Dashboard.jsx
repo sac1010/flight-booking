@@ -57,7 +57,7 @@ const Dashboard = () => {
   return (
     <div className="xl:px-60 lg:px-40 px-10 h-screen w-full bg-gradient-to-b from-black to-blue-900 flex items-center justify-center">
       <div className="w-full h-2/4 bg-white rounded-2xl relative flex items-center justify-center">
-        <div className="w-3/4 h-[5rem] flex justify-between items-center px-4 shadow-xl absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl">
+        <div className="w-3/4 h-[5rem] sm:flex hidden justify-between items-center px-4 shadow-xl absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl">
           {services.map((service) => {
             return (
               <div key={service.icon} className="flex items-center justify-center flex-col gap-2">
@@ -67,8 +67,8 @@ const Dashboard = () => {
             );
           })}
         </div>
-        <div className="flex border items-center justify-around border-gray-400 mx-12 rounded-xl  h-[10rem] w-full">
-          <div className="w-[18rem] ">
+        <div className="md:flex-row flex-col flex border items-center p-2 justify-around border-gray-400 mx-12 rounded-xl h-[14rem] w-full">
+          <div className="md:w-[18rem] w-full">
             <Select
               placeholder="From"
               components={{
@@ -89,7 +89,7 @@ const Dashboard = () => {
             />
           </div>
           <MultipleStopIcon />
-          <div className="w-[18rem]">
+          <div className="md:w-[18rem] w-full">
             <Select
               placeholder="To"
               components={{
